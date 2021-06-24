@@ -1,0 +1,68 @@
+.card-header {
+  text-align: center;
+  border-bottom: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  color: #818ea3;
+}
+.card-header span {
+  position: relative;
+  bottom: -16px;
+}
+
+.card-body.more-padding {
+  padding: 2rem !important;
+}
+
+#round-slider .rs-range-color {
+  background-color: #007bff;
+}
+#round-slider .rs-path-color {
+  background-color: #c2e9f7;
+}
+#round-slider .rs-handle {
+  background-color: #c2e9f7;
+  padding: 7px;
+  border: 2px solid #c2e9f7;
+}
+#round-slider .rs-handle.rs-focus {
+  border-color: #007bff;
+}
+#round-slider .rs-handle:after {
+  border-color: #007bff;
+  background-color: #007bff;
+}
+
+#round-slider .rs-border {
+  border-color: transparent;
+  stroke: #c2e9f7;
+}
+
+/* Tooltip */
+#round-slider .rs-tooltip-text {
+  font-size: 55px;
+  font-weight: 300;
+  font-family: inherit;
+  text-indent: 10px;
+  text-align: center;
+}
+
+#round-slider .rs-tooltip-text .round-slider-temp__text {
+  font-size: 14px !important;
+  text-indent: 0px;
+  text-transform: uppercase;
+  /* text-align: center; */
+  bottom: 20px;
+  position: relative;
+}
+
+/* Disabled state */
+#round-slider .rs-disabled {
+  opacity: 1;
+}
+#round-slider .rs-disabled svg {
+  opacity: 0.35;
+}
+#round-slider .rs-disabled > .rs-tooltip-text {
+  color: black;
+}
